@@ -70,6 +70,7 @@ form {
 }
 
 .image {
+    float: left;
     border-radius: 8px;
     margin-right: 10px;
     width: 300px;
