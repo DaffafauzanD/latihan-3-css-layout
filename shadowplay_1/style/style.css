@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: "lucida sans", arial, sans-serif;
+    font-family: myFirstFont;
     padding: 0px;
     margin: 0px;
     font-size: 0.78em;
@@ -26,7 +26,7 @@ h4 {
     margin: 0px 0px 12px 0px;
     font-weight: normal;
     color: #342f28;
-    font-family: serif;
+    font-family: newfont;
 }
 
 h1,
@@ -126,20 +126,71 @@ ol li {
 }
 
 #header {
-    background: url(back.png) repeat-x;
+    background: url(wallpaperflare.com_wallpaper.jpg) repeat-x;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(font/Montserrat-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: newfont;
+    src: url(font/GOTHIC.TTF);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: JUDUL;
+    src: url(font/segoeui.ttf);
+    font-weight: normal;
+}
+
+.container {
+    margin: 0px 0px 0px 0px;
+    position: relative;
+}
+
+.box {
+    position: relative;
+    width: 237px;
+    height: 350px;
+    background-color: #707070;
+    float: left;
+    margin: 15px 15px 0px 0px;
+    border-radius: 6px;
+}
+
+.contentbox {
+    position: absolute;
+    color: white;
+    background-color: #adadad;
+    width: 237px;
+    height: 40px;
+    border-radius: 6px 6px 0px 0px;
+    text-align: center;
+    padding: 0px;
+}
+
+.background {
+    color: #313131;
+    background-color: #cccccc;
+    width: 237px;
+    height: 60px;
 }
 
 #logo {
-    width: 870px;
+    width: 570px;
     height: 127px;
     position: relative;
-    background: transparent url(logo.png) no-repeat right;
 }
 
 #logo #logo_text {
     position: absolute;
     top: 0;
     left: 0;
+    text-align: center;
 }
 
 #logo h1,
@@ -160,7 +211,7 @@ ol li {
 }
 
 #logo_text h1 a .logo_colour {
-    color: #b8bd20;
+    color: #aa8a59;
 }
 
 #logo_text a:hover .logo_colour {
@@ -176,7 +227,7 @@ ol li {
 #logo h1,
 #logo h2 {
     margin: 0;
-    font-family: "century gothic", arial, sans-serif;
+    font-family: JUDUL;
 }
 
 #logo h1 {
@@ -196,14 +247,14 @@ ol li {
 }
 
 #menubar {
-    width: 870px;
+    width: 570px;
     height: 46px;
     padding-top: 4px;
     padding-left: 4px;
 }
 
 ul#menu {
-    float: right;
+    float: left;
     margin: 0px;
 }
 
@@ -216,7 +267,7 @@ ul#menu li {
 
 ul#menu li a {
     letter-spacing: 0.1em;
-    font-family: serif;
+    font-family: myFirstFont;
     font-size: 100%;
     display: block;
     float: left;
@@ -236,21 +287,19 @@ ul#menu li.selected a {
 
 ul#menu li.selected {
     margin: 7px 0 0 0;
-    background: #635b53 url(tabs.png) no-repeat 0 0px;
 }
 
 ul#menu li.selected a,
 ul#menu li.selected a:hover {
-    background: #635b53 url(tabs.png) no-repeat 100% 0px;
-    color: #fff;
+    color: rgb(154, 209, 219);
 }
 
 ul#menu li a:hover {
-    color: #a4aa04;
+    color: #b5bb0d;
 }
 
 #site_content {
-    width: 875px;
+    width: 1055px;
     margin-top: 10px;
     overflow: hidden;
 }
@@ -290,15 +339,15 @@ ul#menu li a:hover {
 
 #content {
     text-align: left;
-    width: 624px;
+    width: 760px;
     float: left;
     padding: 20px 10px 15px 0px;
 }
 
 #footer {
     width: 100%;
-    font-family: sans-serif;
-    font-size: 90%;
+    font-family: newfont;
+    font-size: 100%;
     height: 80px;
     padding: 20px 0px 4px 0px;
     margin-bottom: 20px;
