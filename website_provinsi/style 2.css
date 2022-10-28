@@ -89,6 +89,8 @@ h4 {
 
 .card_image {
     width: 100%;
+    width: 350px;
+    height: 220px;
     display: block;
 }
 
