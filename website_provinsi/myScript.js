@@ -13,7 +13,7 @@ function myfuction() {
         "email : " +
         lname +
         "\n" +
-        "'idcard : " +
+        "idcard : " +
         iname +
         "\n" +
         "destinasi : " +
@@ -21,7 +21,6 @@ function myfuction() {
         "\n" +
         "ticket : " +
         tname +
-        "'" +
         "\njika yakin klik OK"
     );
 

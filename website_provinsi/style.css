@@ -77,6 +77,26 @@ h4 {
     transition: 0.4s;
 }
 
+.buttonB {
+    color: #ffffff;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(185, 185, 185);
+    border-radius: 5px;
+    border: #f2f2f2;
+    transition: 300ms ease;
+}
+
+.buttonB:hover {
+    color: #000000;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: #f2f2f2;
+    transition: 300ms ease;
+}
+
 .cards {
     margin: 400px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
